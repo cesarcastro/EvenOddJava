@@ -8,6 +8,7 @@ public class Main {
         Scanner read = new Scanner(System.in);
         System.out.print("First number -> ");
         int x = read.nextInt();
+        System.out.print("Next number -> ");
         int y = read.nextInt();
 
         for (int i = x; i <= y; i++) {
